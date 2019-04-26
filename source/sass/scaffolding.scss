@@ -14,6 +14,10 @@
   font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -22,6 +26,8 @@ body {
   font-family: "opensans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  color: $main-color;
+  background-color: $main-bg-color;
 }
 
 img {
@@ -29,7 +35,24 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 260px;
   margin: 0 auto;
+}
+
+.button {
+  width: 100%;
+  padding: 15px 0;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  border: 2px solid #444444;
+  background-color: #ffffff;
 }

@@ -1,0 +1,45 @@
+.hero__title {
+  color: #010000;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.hero__list {
+  @include list;
+}
+
+.hero__item {
+  position: relative;
+  padding: 25px 0;
+
+  background-color: $color-light-mint;
+}
+
+.hero__item--current {
+  background-color: #56c3b2;
+}
+
+.hero__link {
+  display: block;
+
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.hero__image {
+  position: absolute;
+  z-index: 3;
+  right: 36px;
+  top: 23px;
+
+  opacity: 0.5;
+  fill: #149080;
+}
+
+.hero__image--current {
+  right: 27px;
+}
+

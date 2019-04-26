@@ -1,0 +1,26 @@
+.reviews__title {
+  color: $secondary-color;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.reviews__content {
+  margin: 0;
+  padding: 0;
+}
+
+.reviews__text {
+  line-height: 30px;
+}
+
+.reviews__author-name {
+  font-weight: 700;
+  line-height: 24px;
+  color: $secondary-color;
+}
+
+.reviews__author-email {
+  line-height: 30px;
+  font-size: 17px;
+}

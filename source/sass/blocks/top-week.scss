@@ -1,0 +1,26 @@
+.top-week__title {
+  color: $secondary-color;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.top-week__subtitle {
+  color: $color-light-mint;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.top-week__description {
+  line-height: 24px;
+}
+
+.top-week__price {
+  display: block;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+}

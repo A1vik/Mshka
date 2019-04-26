@@ -1,0 +1,13 @@
+.table__row {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.table__column {
+  border-bottom: 1px solid #f1f1f1;
+
+  &:first-of-type {
+    margin-right: 30px;
+
+    line-height: 20px;
+  }
+}
