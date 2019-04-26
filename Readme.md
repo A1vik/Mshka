@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Julia Gankina](https://up.htmlacademy.ru/adaptive/16/user/936943).
-* Наставник: Владислав Балабанович (https://htmlacademy.ru/profile/id6394).
+* Студент: [Катя Елисеева](https://up.htmlacademy.ru/adaptive/16/user/973143).
+* Наставник: [Арсений Березин](https://htmlacademy.ru/profile/id263537).
 
 ---
 
@@ -24,7 +24,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`,
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/936943-mishka-16) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/973143-mishka-16) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
 
 <img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455590/09e03f32-206a-11e6-9dc8-32d4c11edc90.png">
 
@@ -54,7 +54,7 @@ git clone SSH-адрес_вашего_форка
 
 Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS, уровень 2](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
 
-[travis-image]: https://travis-ci.com/htmlacademy-adaptive/936943-mishka-16.svg?branch=master
-[travis-url]: https://travis-ci.com/htmlacademy-adaptive/936943-mishka-16
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/936943-mishka-16/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/936943-mishka-16?type=dev
+[travis-image]: https://travis-ci.com/htmlacademy-adaptive/973143-mishka-16.svg?branch=master
+[travis-url]: https://travis-ci.com/htmlacademy-adaptive/973143-mishka-16
+[dependency-image]: https://david-dm.org/htmlacademy-adaptive/973143-mishka-16/dev-status.svg?style=flat-square
+[dependency-url]: https://david-dm.org/htmlacademy-adaptive/973143-mishka-16?type=dev
