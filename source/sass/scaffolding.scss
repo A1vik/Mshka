@@ -19,9 +19,9 @@
 }
 
 body {
+  min-width: 320px;
   margin: 0;
   padding: 0;
-  width: 320px;
 
   font-family: "opensans", sans-serif;
   font-size: 15px;
@@ -40,7 +40,7 @@ a {
 }
 
 .container {
-  width: 260px;
+  width: 320px;
   margin: 0 auto;
 }
 

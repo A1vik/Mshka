@@ -6,14 +6,17 @@
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.5.x",
-    "browser-sync": "2.26.x",
+    "browser-sync": "^2.26.5",
+    "deep-extend": "^0.6.0",
     "gulp": "4.0.x",
-    "gulp-sass": "4.0.x",
     "gulp-plumber": "1.2.x",
     "gulp-postcss": "8.0.x",
+    "gulp-sass": "4.0.x",
     "gulp-sourcemaps": "2.6.x",
+    "merge": "^1.2.1",
     "stylelint": "9.10.x",
-    "stylelint-config-htmlacademy": "0.1.x"
+    "stylelint-config-htmlacademy": "0.1.x",
+    "tar": "^4.4.8"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
