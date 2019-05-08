@@ -1,4 +1,13 @@
 .copyright {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+
+  min-height: 80px;
+}
+
+.copyright__slogan {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 18px;
 }

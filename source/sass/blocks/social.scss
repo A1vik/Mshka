@@ -1,7 +1,19 @@
+.social {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 .social__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  min-height: 80px;
 
   @include list;
 }

@@ -33,10 +33,10 @@
         </ul>
       </nav>
     <section class="hero">
-      <h1 class="hero__title container">Милые штуки ручной работы для дома</h1>
+      <h1 class="hero__title wrapper">Милые штуки ручной <br> работы для дома</h1>
       <ul class="hero__list">
         <li class="hero__item">
-          <a class="hero__link container" href="#">
+          <a class="hero__link wrapper" href="#">
             Предметы <br> интерьера
           </a>
           <svg class="hero__image" version="1.1" id="svg4488" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40" height="62" viewBox="-259.404 -19.675 40.219 62.411" enable-background="new -259.404 -19.675 40.219 62.411" xml:space="preserve">
@@ -50,7 +50,7 @@
           </svg>
         </li>
         <li class="hero__item hero__item--current">
-            <a class="hero__link container" href="#">
+            <a class="hero__link wrapper" href="#">
               Детские <br> игрушки
             </a>
             <svg class="hero__image hero__image--current" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60" height="60" viewBox="226.001 226.19 60 59.62" enable-background="new 226.001 226.19 60 59.62" xml:space="preserve">
@@ -62,33 +62,35 @@
   </header>
   <main class="page-main container">
     <section class="top-week">
-      <header class="top-week__header">
-        <h2 class="top-week__title">Вязаные корзинки</h2>
-        <span class="top-week__subtitle">Товар недели</span>
-      </header>
-      <p class="top-week__description">Экологически чистая пряжа, ручная работа.    Доступны в шести расцветках, и трех размерах.
-      </p>
-      <table class="top-week__table table">
-        <tr class="table__row">
-          <td class="table__column">Цвет:</td>
-          <td class="table__column">«Тиффани»/серый</td>
-        </tr>
-        <tr class="table__row">
-          <td class="table__column">Диаметр:</td>
-          <td class="table__column">25 см</td>
-        </tr>
-        <tr class="table__row">
-          <td class="table__column">Высота:</td>
-          <td class="table__column">15 см</td>
-        </tr>
-      </table>
-      <img src="img/triple-set-mobile@1x.jpg" alt="Фото вязаной корзинки" class="top-week__image">
-      <div class="top-week__card">
-          <b class="top-week__price">Цена: 990 руб.</b>
-          <button class="top-week__buttton button">Заказать</button>
+      <div class="wrapper">
+          <header class="top-week__header">
+              <h2 class="top-week__title">Вязаные корзинки</h2>
+              <span class="top-week__subtitle">Товар недели</span>
+            </header>
+            <p class="top-week__description">Экологически чистая пряжа, ручная работа.    Доступны в шести расцветках, и трех размерах.
+            </p>
+            <table class="top-week__table table">
+              <tr class="table__row">
+                <td class="table__column">Цвет:</td>
+                <td class="table__column">«Тиффани»/серый</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__column">Диаметр:</td>
+                <td class="table__column">25 см</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__column">Высота:</td>
+                <td class="table__column">15 см</td>
+              </tr>
+            </table>
+            <img src="img/triple-set-mobile@1x.jpg" alt="Фото вязаной корзинки" class="top-week__image">
+            <div class="top-week__card">
+                <b class="top-week__price">Цена: 990 руб.</b>
+                <button class="top-week__buttton button">Заказать</button>
+            </div>
       </div>
     </section>
-    <section class="features">
+    <section class="features wrapper">
         <h2 class="features__title">Коротко о нас:</h2>
         <ul class="features__list">
           <li class="features__item">
@@ -121,7 +123,7 @@
           </li>
         </ul>
     </section>
-    <section class="reviews">
+    <section class="reviews wrapper">
         <h2 class="reviews__title">Отзывы</h2>
         <blockquote class="reviews__content">
             <p class="reviews__text">
@@ -133,12 +135,11 @@
             </cite>
         </blockquote>
         <div class="reviews__nav">
-            <button class="reviews__nav-button reviews__nav-button--prev"></button>
-            <button class="reviews__nav-button reviews__nav-button--next"></button>
+            <button class="reviews__nav-button reviews__nav-button--prev"></button><button class="reviews__nav-button reviews__nav-button--next"></button>
         </div>
         <button class="reviews__button button">Написать</button>
     </section>
-    <section class="contacts">
+    <section class="contacts wrapper">
         <div class="contacts__item">
           <span class="contacts__title contacts__title--email"></span>
           <p class="contacts__text"></p>
@@ -150,11 +151,13 @@
     </section>
     <section class="map">
       <h2 class="visually-hidden"></h2>
-      <img src="" alt="" class="map image">
-        <button class="map_button button">Напишите нам</button>
+      <div class="map__image"></div>
+      <div class="wrapper">
+          <button class="map__button button">Напишите нам</button>
+      </div>
     </section>
   </main>
-  <footer class="page-footer container">
+  <footer class="page-footer wrapper">
     <div class="social">
       <h2 class="visually-hidden"></h2>
       <ul class="social__list">
@@ -203,7 +206,7 @@
       </div>
     </div>
   </footer>
-  <section class="popup container">
+  <section class="popup wrapper">
     <h2 class="popup__title">Добавить в корзину</h2>
     <span class="popup__description">Выберите размер:</span>
     <ul class="popup__list">

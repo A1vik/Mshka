@@ -1,4 +1,15 @@
+.reviews {
+  padding-bottom: 45px;
+
+  background-image: url("../../img/bg-zigzag-line.svg");
+  background-repeat: repeat-x;
+  background-size: 250px;
+  background-position: 50% 100%;
+}
+
 .reviews__title {
+  margin-bottom: 30px;
+
   color: $secondary-color;
   font-size: 25px;
   font-weight: 700;
@@ -8,10 +19,17 @@
 .reviews__content {
   margin: 0;
   padding: 0;
+  margin-bottom: 30px;
 }
 
 .reviews__text {
+  margin-bottom: 30px;
+
   line-height: 30px;
+}
+
+.reviews__nav {
+  margin-bottom: 38px;
 }
 
 .reviews__author-name {
@@ -23,4 +41,23 @@
 .reviews__author-email {
   line-height: 30px;
   font-size: 17px;
+}
+
+.reviews__nav-button {
+  display: inline-block;
+  width: 130px;
+  height: 52px;
+
+  background-color: transparent;
+  border: 1px solid #ececec;
+  cursor: pointer;
+}
+
+.reviews__nav-button--prev {
+  border-right: none;
+  background: url("../../img/icon-left-arrow.svg") no-repeat center center;
+}
+
+.reviews__nav-button--next {
+  background: url("../../img/icon-right-arrow.svg") no-repeat center center;
 }

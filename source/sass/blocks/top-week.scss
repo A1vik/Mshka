@@ -1,4 +1,7 @@
 .top-week__title {
+  margin: 0;
+  padding: 0;
+
   color: $secondary-color;
   font-size: 25px;
   font-weight: 700;
@@ -17,10 +20,21 @@
   line-height: 24px;
 }
 
+.top-week__table {
+  margin-bottom: 28px;
+}
+
+.top-week__image {
+  margin-bottom: 29px;
+}
+
 .top-week__price {
   display: block;
+
+  margin-bottom: 25px;
 
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
+  text-align: center;
 }
