@@ -1,5 +1,35 @@
+.main-nav {
+  position: relative;
+}
+
 .main-nav__wrapper-logo {
+  display: flex;
+  align-items: center;
+
   min-height: 79px;
 
   box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+}
+
+.main-nav__logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  right: 30px;
+  border: none;
+  padding: 0;
+}
+
+.main-nav--opened .main-nav__toggle::before {
+  position: absolute;
+  top: -10px;
+  content: "";
+  width: 21px;
+  height: 20px;
+  background-image: url("../../img/icon-menu-close.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
